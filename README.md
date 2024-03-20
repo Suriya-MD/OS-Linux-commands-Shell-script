@@ -236,11 +236,13 @@ egrep 'Linux.*World' newfile
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/4db0977a-c89e-446b-8bb8-1666d5b50e86)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/cebeaca7-ddf3-4f12-baf5-55a9920197c1)
 
 
 cat > file23
@@ -259,79 +261,96 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/9fd86775-0a92-4809-8494-53d9f9b25309)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/9d02b2ec-df6a-457a-a1b4-b0bf8164a13c)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/2f6c90ec-f440-4f82-b5e8-ba4821e0c11d)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/fe70e6dd-b4f4-4b23-a2ed-cff1bfd19f83)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/d613186d-8f55-4bd6-91a9-359bf8e545b6)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/10bb4685-7aa5-4c09-8ec5-96530856f852)
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/66f64840-978d-4170-9fd4-bab578bf9503)
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/58350cb1-790b-44b3-b054-bc89dea5d55a)
 
 
 
 seq 10 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/8dcd8d29-9515-4d54-b9fe-bb34e652b8d2)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/36b60de1-fb4a-453b-8006-37844d7aa36b)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/44b522d4-b9ba-4f73-a705-3e836389d3d2)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/72505b7c-f4ab-4806-8de4-4bd5b88486e2)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/9085b96c-3816-4ef5-9f23-cb62fc1480eb)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/5454d83f-d48d-4451-a095-ce5db06d90ce)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/0ffe94d6-0ffd-4fae-a3ff-6dfa401fe15b)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/c850970b-7c37-43b7-8ed9-179dcc5b2133)
 
 
 #Sorting File content
@@ -345,6 +364,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/9923d2c7-57c9-49ee-8b85-e44f45f94b01)
 
 
 cat > file22
@@ -358,6 +378,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/13e6698c-957e-4ae9-92b8-da5bf4da42ad)
 
 
 
@@ -365,6 +386,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/a5623fb7-20e3-4474-a785-eb2f0551034d)
 
 cat < urllist.txt
 ```
@@ -381,17 +403,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/da8b7cd9-3488-463b-93e3-743fee0ebed7)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/460a1f3e-1bee-4040-af59-250962b2ad9d)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/fc021a3b-ce08-49a2-af2c-e8eb909f3b97)
 
 
 mkdir backupdir
@@ -399,17 +424,17 @@ mkdir backupdir
 mv backup.tar backupdir
  
 tar -tvf backup.tar
-## OUTPUT
-
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/44efefd1-3b16-4825-8374-1fe9d3f78f62)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/05250e1f-3a43-4620-b821-2bd381495ee2)
+
 gunzip backup.tar.gz
 ## OUTPUT
 
@@ -422,6 +447,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/a72d61a8-20db-41ef-a2ce-52810c8144e3)
 
  
 cat << stop > herecheck.txt
@@ -434,6 +460,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/e16e7002-28c1-46c7-9b2c-2928c4d07f05)
 
 
 cat < scriptest.sh 
@@ -472,10 +499,12 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/d197d98f-482d-42dd-8e73-b6d190f7bc28)
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/660466d3-22a1-44e9-8f13-986b17955a9f)
 
 echo $?
 ## OUTPUT 
@@ -484,11 +513,13 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/158fef75-2ba6-413a-8994-170fc0ff0057)
+
 abcd
  
 echo $?
  ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/9a1910c0-d408-4656-9d95-9f56648547a0)
 
 
  
@@ -520,7 +551,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/f224a10e-9484-4ccf-ad73-d5ee609f38dc)
 
 
 
@@ -528,6 +560,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/88302a3c-1544-4cc4-a68e-65c11e6a26d7)
 
 
 # check file ownership
@@ -555,6 +588,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/7afd2e68-ea4a-4ca6-bb08-88b5d6b1c16e)
 
 # check if with file location
 cat>ifnested.sh 
@@ -601,6 +635,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/227cb896-8101-4a54-8362-44f142eebbff)
 
 
 
@@ -644,7 +679,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/efa73eb1-d25a-4338-9200-06a955fb86d9)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -693,7 +730,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/1a0c896a-bec7-478a-ae0f-0a75bff1a026)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -722,6 +760,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/634c4440-f671-4f5b-9f9a-36b81722465c)
 
 
 # testing compound comparisons
@@ -738,6 +777,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/f9b6fdf8-1b52-4453-8574-8d0c379c7df5)
 
 # using the case command
 cat >casecheck.sh 
@@ -757,7 +797,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/75f26b12-5b64-44ab-9a64-883baffbdba5)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -772,7 +813,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/9e439feb-08ab-4846-8e69-e23c3a850b67)
+
  
 cat untiltest.sh 
 ```bash
@@ -785,7 +827,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/0131f3bd-f62d-4cff-a98b-621d001729c5)
+
  
  
 cat forin1.sh 
@@ -799,7 +842,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/39ea25ed-1984-4508-b74b-97c143cf787b)
+
  
 cat forin2.sh 
 ```bash
@@ -825,7 +869,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/e75368ea-7329-4ce6-8be9-2bf8967dabdb)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -836,7 +881,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/ef01d83a-4af8-4a12-840f-2be3b7426a3e)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -849,6 +895,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/cee4b411-74c0-4803-a329-b29ece3019db)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -870,6 +918,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/a64e062a-d1bc-46e2-9922-e7017f80d9ab)
 
 
 cat forctype.sh 
@@ -884,6 +933,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/39b86708-8481-467e-9594-405599c59eed)
 
 cat forctype1.sh 
 ```bash
@@ -897,6 +947,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/6682c754-af9b-4f99-b307-f7b3b2519644)
 
 cat fornested1.sh 
 ```bash
@@ -915,6 +966,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/0b89576b-85c8-4172-b978-66d8b3c04e06)
 
  
 cat forbreak.sh 
@@ -932,11 +984,13 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/4f1077d4-693a-451c-8bd4-e8f1ffbe0dde)
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/51aa68fd-cfd5-40a7-acb1-780148e44ed9)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -956,7 +1010,7 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
-## OUTPUT
+
  
 cat exread.sh 
 ```bash
@@ -970,7 +1024,7 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
-## OUTPUT
+
 
 
  cat exread1.sh
@@ -983,6 +1037,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/017a8dd6-cfdb-4634-97c0-3bad29f51a90)
 
 
 
@@ -1005,6 +1060,7 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/66ed3d00-3035-470a-bf27-b17119df4f81)
 
  
  ./funcex.sh 1 2
@@ -1019,9 +1075,10 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/99912dad-f5dc-4d33-9781-cfcdd0f95fd8)
+
  
  cat argshift1.sh
 ```bash
@@ -1038,6 +1095,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/dd847c56-00c9-4ff8-9874-a9415fe37c76)
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1052,7 +1111,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/17b3598c-307b-47d8-baf3-5ac0c267bc63)
+
  
 cat > nc.awk
 ```bash
@@ -1083,7 +1143,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/875c284b-5bef-4c46-9a31-100881921325)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1110,6 +1171,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/a615b07c-298a-4873-986c-e22356edc482)
 
 
 # RESULT:
