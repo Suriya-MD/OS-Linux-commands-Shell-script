@@ -42,23 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/20f24a6a-8844-4709-a928-2b71b45f7b50)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/d341302a-3310-4f18-90ec-eff690ae49ba)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/42d97403-8cc7-4b45-85cd-28731eb3f4b8)
  
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/c37aaac1-7bef-4513-b489-ea7cb4bdc9ea)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/ab94eda2-c225-4fb1-ba55-2f058bcf3b76)
 
 
 #Filters
@@ -82,17 +87,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/12e66eb3-94a6-4951-97f7-37b4abfe966d)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/d89ad1e5-0286-4408-b0d5-36b82e8ae5f4)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/bf29cd0f-1c17-444f-8fe6-aea21e4dc567)
 
 
 cat < newfile 
@@ -107,39 +115,46 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/f668e1ba-4232-4e77-b24f-109a845bce37)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/91813c5a-5c5e-48f1-b531-1219b472c820)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/959f4714-131b-47c2-b2f5-19913cc39548)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/e31b5105-7e6a-4da0-ba3f-019af8471df2)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/7007995d-4718-442e-b74c-21582d27c86e)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/8f6a8a8d-fd7e-4e9d-9b89-7e2849b90b45)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/8f74008e-5c1d-45b9-a58d-0ce78544129d)
 
 
 cat < newfile 
@@ -163,50 +178,60 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/351f8626-e602-45ad-add8-091f68a855bd)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/d0e38208-33df-44d8-bee3-dc02a865db0d)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/c82dcfd1-dfe1-434c-aab6-f5d54af55e47)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/1b462c6d-a9df-456c-a912-27fe40149a25)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/0b48847f-6d82-441b-a616-d42e093bf848)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/ae86cc83-eb08-4c0c-912a-b7e46b176981)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/04e79f99-fb00-42d1-a294-644d50d8f19e)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/ae793648-5ba0-4172-99d6-c41d6b6a5b57)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/d4ac7aeb-7a69-464f-84ff-6277902fdabc)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/Suriya-MD/OS-Linux-commands-Shell-script/assets/147120571/2b653063-beb0-41e8-b005-66682c83ff6f)
 
 
 egrep l{2} newfile
